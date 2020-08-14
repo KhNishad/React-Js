@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
     <Greet name= 'BD'>
-      <p>Joybangla child props</p>
+      <p>Joybangla child prop</p>
     </Greet>
     <Welcome/>
     <Hello/>
