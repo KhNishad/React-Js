@@ -6,6 +6,7 @@ import Welcome from './components/welcome'
 import Hello from './components/hello'
 import Message from './components/message'
 import Counter from './components/counter'
+import FunctionClick from './components/functionClick'
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
     <Welcome/>
     <Hello/> */}
     {/* <Message/> */}
-    <Counter/>
+    {/* <Counter/> */}
+      <FunctionClick/>
     </div>
   );
 }
