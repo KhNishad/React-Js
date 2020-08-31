@@ -8,6 +8,7 @@ import Message from './components/message'
 import Counter from './components/counter'
 import FunctionClick from './components/functionClick'
 import ClassClick from './components/classClick'
+import List from './components/list'
 function App() {
   return (
     <div className="App">
@@ -19,7 +20,8 @@ function App() {
     {/* <Message/> */}
     {/* <Counter/> */}
       {/* <FunctionClick/> */}
-      <ClassClick/>
+      {/* <ClassClick/> */}
+      <List/>
     </div>
   );
 }
