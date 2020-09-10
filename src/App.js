@@ -9,9 +9,11 @@ import Counter from './components/counter'
 import FunctionClick from './components/functionClick'
 import ClassClick from './components/classClick'
 import List from './components/list'
+import StyleSheet from './components/styleSheet'
 function App() {
   return (
     <div className="App">
+      <StyleSheet  primary = {true}/>
     {/* <Greet name= 'BD'>
       <p>Joybangla child prop</p>
     </Greet>
@@ -21,7 +23,7 @@ function App() {
     {/* <Counter/> */}
       {/* <FunctionClick/> */}
       {/* <ClassClick/> */}
-      <List/>
+      {/* <List/> */}
     </div>
   );
 }
