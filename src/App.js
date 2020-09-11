@@ -10,10 +10,11 @@ import FunctionClick from './components/functionClick'
 import ClassClick from './components/classClick'
 import List from './components/list'
 import StyleSheet from './components/styleSheet'
+import Form from './components/form'
 function App() {
   return (
     <div className="App">
-      <StyleSheet  primary = {true}/>
+      {/* <StyleSheet  primary = {true}/> */}
     {/* <Greet name= 'BD'>
       <p>Joybangla child prop</p>
     </Greet>
@@ -24,6 +25,7 @@ function App() {
       {/* <FunctionClick/> */}
       {/* <ClassClick/> */}
       {/* <List/> */}
+      <Form/>
     </div>
   );
 }
