@@ -23,12 +23,11 @@ class counter extends Component {
             div >
 
 
-            <
-            /div> <
-            button onClick = {
+            </div> 
+            <button>onClick = {
                 () => this.increment()
-            } > Increment < /button> < /
-            div >
+            }  Increment </button> 
+            </div>
         )
     }
 }
