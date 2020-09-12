@@ -27,6 +27,9 @@ class counter extends Component {
             <button>onClick = {
                 () => this.increment()
             }  Increment </button> 
+            <button>onClick = {
+                () => this.increment()
+            }  Increment </button>
             </div>
         )
     }
