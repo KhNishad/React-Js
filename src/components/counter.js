@@ -29,10 +29,12 @@ class counter extends Component {
             }  Increment </button> 
             <button>onClick = {
                 () => this.increment()
-            }  Increment </button>
+            }  Increment </button>llo
             </div>
         )
     }
 }
+
+
 
 export default counter
